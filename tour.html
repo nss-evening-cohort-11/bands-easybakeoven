@@ -9,31 +9,48 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <ul class="nav nav-pills d-flex flex-wrap justify-content-end">
-    <li class="nav-item">
-        <a class="nav-link align-self-start" href="index.html">Easy Bake Oven</a>
+  <div class="nav-container d-flex flex-wrap justify-content-between"> 
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a id="brandName" class="nav-link navbar-brand" href="index.html">Easy Bake Oven</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link success" href="./index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link success" href="./about.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="./tour.html">Tour</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./merch.html">Merch</a>
-    </li>
-  </ul>
-
-  <footer class="fixed-bottom">
-    <p>Copyright 2020 - Easy Bake Oven</p>
+    </ul>
     
-         <!-- <img src="../icons/facebook.png"> -->
-         <!-- <img src="../icons/instagram.jpg"> -->
-        <!-- <img src="../icons/spotify.jpg"> -->
-        <!-- <img src="../icons/twitter.png"> -->
-</footer>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link success" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link success" href="./about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="./tour.html">Tour</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./merch.html">Merch</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <h1 class="hdr">EASY BAKED OVEN TOUR DATES</h1>
+  <div id="tourdates"></div>
+
+
+
+    <footer class="fixed-bottom">
+        <p>Copyright 2020 - Easy Bake Oven</p>
+        
+             <!-- <img src="../icons/facebook.png"> -->
+             <!-- <img src="../icons/instagram.jpg"> -->
+            <!-- <img src="../icons/spotify.jpg"> -->
+            <!-- <img src="../icons/twitter.png"> -->
+    </footer>
+    
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
