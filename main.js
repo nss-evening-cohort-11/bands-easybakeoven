@@ -1,3 +1,4 @@
+
 const tourStops=[
     { 		    location: "Denver, Colorado ",
                 venue: " Pepsi Center ",
@@ -88,6 +89,7 @@ const tourStops=[
     
     
     
+
 
 
 
