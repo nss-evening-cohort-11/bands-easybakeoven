@@ -15,3 +15,17 @@ p{
     text-align: center;
     margin: 0px 0px 0px 48px ;
 }
+#brandName{
+    color: black;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: grey
+}
+
+.nav-link:active{
+    background-color: darkgreen;
+}
