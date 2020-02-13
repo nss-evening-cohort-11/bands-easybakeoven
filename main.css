@@ -4,8 +4,21 @@ body {
 p {
     text-align: center;
 }
-img {
-    
+
+h2 {
+    text-align: center;
+}
+
+
+img.bandpic {
+    float: right;
+    width: 150px;
+    height: 150px;
+
+
+}
+img.miniIcons {
+    text-align: center;
     width: 2em;
     height: 2em;
     }
