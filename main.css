@@ -1,5 +1,5 @@
 body {
-    background-color: chartreuse;
+    background-color: white;
 }
 p {
     text-align: center;
@@ -12,11 +12,16 @@ h2 {
 
 img.bandpic {
     float: right;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+}
 
+ul.members {
+    text-align: center;
 
 }
+
+
 img.miniIcons {
     text-align: center;
     width: 2em;
