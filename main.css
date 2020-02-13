@@ -1,6 +1,17 @@
 body {
-    background-color: white;
+
+    background-color:white;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+
 }
-p {
+
+p{
     text-align: center;
+}
+
+.hdr{
+    text-align: center;
+    margin: 0px 0px 0px 48px ;
 }
