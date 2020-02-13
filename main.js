@@ -51,7 +51,7 @@ const tourStops=[
     
     const printToDom =(divId,textToPrint)=>{
     const selectedDiv= document.getElementById(divId);
-    selectedDiv.innerHTML= textToPrint;
+    selectedDiv.innerHTML=textToPrint;
     };
     const buildTourDates=()=>{
         let domString='';
@@ -75,20 +75,12 @@ const tourStops=[
 }
 }
     };
-// Starts the Newsletter signup
-    const newsLetterFans= []; 
-    const btnSignUp = (e)=> {
-    e.preventDefault()
-    newsLetterFans.push(document.getElementById("fanEmail").value); //get from input
-    alert("Your signup was successful!");
-    document.getElementById("fanEmail").value="";
+
  
-};   
- console.log(newsLetterFans);
     
     const eventsForTickets = () => {
         document.getElementById("tickets").addEventListener('click', btnPurchase);
-        document.getElementById('signupbtn').addEventListener('click',btnSignUp);
+       
     };
     
     const init=()=> {
@@ -98,7 +90,7 @@ const tourStops=[
     
     init();
     
-    
+ 
     
 
 
