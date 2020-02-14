@@ -10,18 +10,23 @@ h2 {
 }
 
 
+
 img.bandpic {
     float: right;
-    width: 350px;
-    height: 450px;
-    margin-right: 250px;
+    width: 325px;
+    height: 375px;
+    margin-right: 200px;
 }
 
 dl.members {
     text-align: center;
 
-}
 
+}
+img.card-img-top {
+    width: 286px;
+    height: 280px;
+}
 
 img.miniIcons {
     text-align: center;
