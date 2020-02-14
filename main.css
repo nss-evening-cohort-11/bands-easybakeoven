@@ -12,11 +12,12 @@ h2 {
 
 img.bandpic {
     float: right;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 450px;
+    margin-right: 250px;
 }
 
-ul.members {
+dl.members {
     text-align: center;
 
 }
