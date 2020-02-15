@@ -45,7 +45,7 @@ img.miniIcons {
 .hdr{
     text-align: center;
     margin: 0px 0px 0px 48px ;
-
+}
 
 .merchPics {
   display: flex;
@@ -93,7 +93,7 @@ div.card-img-overlay {
 img.card-img {
     height: 350px;
 }
-=======
+
 .eventsImg{
     max-width: 250px;
 }
