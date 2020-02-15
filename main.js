@@ -101,6 +101,21 @@ const recentEvents = [
   }
 ];
 
+//new code for signup button starts here
+const newsLetterFans= []; 
+const btnSignUp = (e)=> {
+   e.preventDefault()
+newsLetterFans.push(document.getElementById("fanEmail").value); //get from input
+ alert("Your signup was successful!");
+ document.getElementById("fanEmail").value="";
+
+};   
+// signup button code ends here
+console.log(newsLetterFans);
+
+
+
+
 const buildEvents = () => {
   let domString = "";
   for (let i = 0; i < recentEvents.length; i++) {
