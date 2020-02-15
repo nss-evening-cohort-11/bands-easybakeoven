@@ -11,6 +11,7 @@ p{
     text-align: center;
 }
 
+
 h2 {
     text-align: center;
 }
@@ -40,10 +41,34 @@ img.miniIcons {
         text-align: center;
     }
 
+
 .hdr{
     text-align: center;
     margin: 0px 0px 0px 48px ;
+
+
+.merchPics {
+  display: flex;
+  width: 256px;
+  height:350px;
 }
+.card {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    background-color: yellow;
+    border: 10px solid yellow;
+    border-style: groove;
+    margin-left: 100px;
+    margin-top:75px;
+    margin-bottom: auto;
+    width: 280px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Luckiest Guy', cursive;
+}
+   
+
 #brandName{
     color: black;
 }
@@ -68,3 +93,19 @@ div.card-img-overlay {
 img.card-img {
     height: 350px;
 }
+=======
+.eventsImg{
+    max-width: 250px;
+}
+.eventsContainer{
+    margin: 100px;
+}
+
+.media-body{
+    margin: 20px;
+}
+
+#tourdates{
+    margin: 50px
+}
+
