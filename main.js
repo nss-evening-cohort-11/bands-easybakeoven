@@ -80,8 +80,8 @@ buttonFunction = id => {
 };
 buttonFunction();
 
-init = () => {};
-merchBuilder(merchArray);
+
+
 
 
 const tourStops = [
@@ -221,10 +221,18 @@ const init = () => {
     buildTourDates(tourStops);
     eventsForTickets();
   } 
-  else (pageRoute == "/index.html") 
+  else if(pageRoute == "/index.html") 
   {
     buildEvents(recentEvents);
     btnSignUp();
+  }
+  else if(pageRoute == "/merch.html")
+  {
+    merchBuilder(merchArray);
+  }
+  else(pageRoute == "/about.html")
+  {
+      
   }
 };
 
