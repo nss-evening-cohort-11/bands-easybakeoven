@@ -29,3 +29,18 @@ p{
 .nav-link:active{
     background-color: darkgreen;
 }
+
+.eventsImg{
+    max-width: 250px;
+}
+.eventsContainer{
+    margin: 100px;
+}
+
+.media-body{
+    margin: 20px;
+}
+
+#tourdates{
+    margin: 50px
+}
