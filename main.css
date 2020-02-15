@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: whitesmoke;
 }
 p {
     text-align: center;
@@ -9,20 +9,16 @@ h2 {
     text-align: center;
 }
 
-
-
 img.bandpic {
     float: right;
-    width: 325px;
-    height: 375px;
-    margin-right: 200px;
+    width: 250px;
+    height: 250px;
+   
 }
 
 dl.members {
     text-align: center;
-
-
-}
+}       
 img.card-img-top {
     width: 286px;
     height: 280px;
