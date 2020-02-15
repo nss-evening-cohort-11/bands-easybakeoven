@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body> 
   <div class="nav-container d-flex flex-wrap justify-content-between"> 
     <ul class="nav nav-pills">
       <li class="nav-item">
@@ -31,8 +31,24 @@
       </li>
     </ul>
   </div>
-
-
+  <!--Starting point for Signup form div-->
+  <div class="container">
+    <a id= "newsletter" class="btn btn-success btn-lg" 
+    data-toggle= "collapse" href="#signupform"
+     role="button" aria-expanded="false" aria-controls="signupform">Signup for our Newsletter</a>
+<div class= "collapse" id= "signupform">
+<h3 class="display-6">Enter Your Email</h3>
+<form>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="fanEmail" aria-describedby="emailHelp" placeholder="emailexample@.com">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <button id="signupbtn" type="submit" class="btn btn-success">Submit</button>
+  </form> 
+</div>  
+  </div>
+ <!--Ending point for Signup form div-->
       <footer class="fixed-bottom">
 
 

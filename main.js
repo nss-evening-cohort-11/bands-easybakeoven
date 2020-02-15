@@ -1,3 +1,15 @@
+//new code for signup button starts here
+const newsLetterFans= []; 
+const btnSignUp = (e)=> {
+   e.preventDefault()
+newsLetterFans.push(document.getElementById("fanEmail").value); //get from input
+ alert("Your signup was successful!");
+ document.getElementById("fanEmail").value="";
+
+};   
+// signup button code ends here
+console.log(newsLetterFans);
+
 
 const tourStops=[
     { 		    location: "Denver, Colorado ",
@@ -48,7 +60,7 @@ const tourStops=[
                 id: 8
     }
     ];
-    
+   
     const printToDom =(divId,textToPrint)=>{
     const selectedDiv= document.getElementById(divId);
     selectedDiv.innerHTML=textToPrint;
@@ -71,27 +83,26 @@ const tourStops=[
     const btnPurchase= (id)=>{
      for(let i=0; i < tourStops.length; i++){  
          if(tourStops[i].id === id) {
-    return;
-}
-}
-    };
+        return;
+        }
+    }
+};
 
- 
-    
+     
     const eventsForTickets = () => {
-        document.getElementById("tickets").addEventListener('click', btnPurchase);
-       
+        document.getElementById('signupbtn').addEventListener('click',btnSignUp);
+    
     };
     
     const init=()=> {
-     buildTourDates(tourStops);
      eventsForTickets();
+     buildTourDates(tourStops);
+    
     };
     
     init();
     
- 
-    
+
 
 
 
