@@ -59,3 +59,12 @@ img.miniIcons {
     background-color: darkgreen;
 }
 
+div.card.bg-dark.text-white{
+    height: 350px;
+}
+div.card-img-overlay {
+    height: 350px;
+}
+img.card-img {
+    height: 350px;
+}
