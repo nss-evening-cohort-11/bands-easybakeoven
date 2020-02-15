@@ -142,6 +142,7 @@ const init = () => {
   else (pageRoute == "/index.html") 
   {
     buildEvents(recentEvents);
+    btnSignUp();
   }
 };
 
