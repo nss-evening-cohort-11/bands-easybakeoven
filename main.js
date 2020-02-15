@@ -33,12 +33,11 @@ const printToDom = (divId, textToPrint)=> {
 
 const bandHistory = (bandMembers)=>{
     let domString = "";
-   {
+       {
         domString += '<h2>"Our History"</h2>';
         domString += `<p class = "briefHistory">We are a Blackened/Stoner Doom Band out of Glasgow.  We started out in my moms garage eating pizza rolls and pulling smoke out of our Unicorn bong.  The better the weed, the better the music.  We toke, we smoke, we hash and love it all. We love our fans and our mothers.  We struggle as a new band so.... ,make sure you like us on facebook and share our videos.  Play our music on spotify.  A band has to eat. Our band members are: </p>`;
-        domString += '<img src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/541800_393561987402502_1666011539_n.jpg?_nc_cat=106&_nc_ohc=LIv8zUDS88UAX-cUv3I&_nc_ht=scontent-den4-1.xx&oh=5a4979120d7cc9a5b8b2c88b6875b146&oe=5EC866AA" class= "bandpic" alt="Stoner Band Picture">';
         domString += '<dl class = "members">';
-        domString += '<dt>Ali Morris</dt>';
+        domString += `<dt>Ali Morris</dt>`;
         domString += '<dd> on Vocals</dd>';
         domString += '<dt>Steven Oliver</dt>';
         domString += '<dd>on Guitar</dd>';
@@ -72,11 +71,11 @@ const cardStoner = (albums) => {
       domString += '<p class="card-text">"Released 2019"</p>';
       domString += '</div>';
       domString += '<ol class="list-group list-group-flush">';
-      domString += `<li class="list-group-item">"1."${stoner[0]}</li>`;
-      domString += `<li class = "list-group-item">"2."${stoner[1]}</li>`;
-      domString += `<li class = "list-group-item">"3."${stoner[2]}</li>`;
-      domString += `<li class = "list-group-item">"4."${stoner[3]}</li>`;
-      domString += `<li class = "list-group-item">"5."${stoner[4]}</li>`;
+      domString += `<li class="list-group-item">1.${stoner[0]}</li>`;
+      domString += `<li class = "list-group-item">2.${stoner[1]}</li>`;
+      domString += `<li class = "list-group-item">3.${stoner[2]}</li>`;
+      domString += `<li class = "list-group-item">4.${stoner[3]}</li>`;
+      domString += `<li class = "list-group-item">5.${stoner[4]}</li>`;
       domString +='</ol>';
 }
 {
@@ -99,11 +98,11 @@ const cardPurple = (albums) => {
        domString += '<p class="card-text">"Released 2017"</p>';
        domString += '</div>';
        domString += '<ol class="list-group list-group-flush">';
-       domString += `<li class="list-group-item">"1."${purple[0]}</li>`;
-       domString += `<li class = "list-group-item">"2."${purple[1]}</li>`;
-       domString += `<li class = "list-group-item">"3."${purple[2]}</li>`;
-       domString += `<li class = "list-group-item">"4."${purple[3]}</li>`;
-       domString += `<li class = "list-group-item">"5."${purple[4]}</li>`;
+       domString += `<li class="list-group-item">1.${purple[0]}</li>`;
+       domString += `<li class = "list-group-item">2.${purple[1]}</li>`;
+       domString += `<li class = "list-group-item">3.${purple[2]}</li>`;
+       domString += `<li class = "list-group-item">4.${purple[3]}</li>`;
+       domString += `<li class = "list-group-item">5.${purple[4]}</li>`;
        domString +='</ol>';
  }
  { 
@@ -126,11 +125,11 @@ const cardWeed = (albums) => {
        domString += '<p class="card-text">"Released 2011"</p>';
        domString += '</div>';
        domString += '<ol class="list-group list-group-flush">';
-       domString += `<li class="list-group-item">"1."${weed[0]}</li>`;
-       domString += `<li class = "list-group-item">"2."${weed[1]}</li>`;
-       domString += `<li class = "list-group-item">"3."${weed[2]}</li>`;
-       domString += `<li class = "list-group-item">"4."${weed[3]}</li>`;
-       domString += `<li class = "list-group-item">"5."${weed[4]}</li>`;
+       domString += `<li class="list-group-item">1.${weed[0]}</li>`;
+       domString += `<li class = "list-group-item">2.${weed[1]}</li>`;
+       domString += `<li class = "list-group-item">3.${weed[2]}</li>`;
+       domString += `<li class = "list-group-item">4.${weed[3]}</li>`;
+       domString += `<li class = "list-group-item">5.${weed[4]}</li>`;
        domString +='</ol>';
  }
  { 
