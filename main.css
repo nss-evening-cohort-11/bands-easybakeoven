@@ -1,8 +1,10 @@
 body {
+
     background-color:white;
     font-style: italic;
     font-weight: bold;
     color: black;
+
 }
 
 p{
@@ -24,7 +26,7 @@ img.bandpic {
 dl.members {
     text-align: center;
 }       
-img.card-img-top {
+img.card-img-album {
     width: 286px;
     height: 280px;
 }
@@ -38,6 +40,11 @@ img.miniIcons {
     .icons{
         text-align: center;
     }
+
+
+.hdr{
+    text-align: center;
+    margin: 0px 0px 0px 48px ;
 
 
 .merchPics {
@@ -58,10 +65,7 @@ img.miniIcons {
     font-family: 'Luckiest Guy', cursive;
 }
    
-.hdr{
- text-align: center;
- margin: 0px 0px 0px 48px ;
-}
+
 #brandName{
     color: black;
 }
@@ -77,6 +81,16 @@ img.miniIcons {
     background-color: darkgreen;
 }
 
+div.card.bg-dark.text-white{
+    height: 350px;
+}
+div.card-img-overlay {
+    height: 350px;
+}
+img.card-img {
+    height: 350px;
+}
+=======
 .eventsImg{
     max-width: 250px;
 }
@@ -91,5 +105,4 @@ img.miniIcons {
 #tourdates{
     margin: 50px
 }
-
 
