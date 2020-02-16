@@ -1,9 +1,14 @@
 body {
-
+    background-image: url('images/rasta\ smoke.jpg');
+    background-size: 2000px;
+    background-position: center;
+    background-attachment: fixed;
     background-color:white;
     font-style: italic;
     font-weight: bold;
     color: black;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -16,19 +21,35 @@ h2 {
     text-align: center;
 }
 
+.nav-container {
+    background-color: rgb(65, 121, 65);
+    height: 50px;
+    align-content: center;
+}
+
 img.bandpic {
     float: right;
     width: 250px;
     height: 250px;
    
 }
+.briefHistory{
+    padding: 50px;
+}
+
+.contentContainer{
+    width: 1200px;
+    background-color: rgb(44, 44, 44);
+   color:white;
+   padding-bottom: 75px;
+}
 
 dl.members {
     text-align: center;
 }       
 img.card-img-album {
-    width: 286px;
-    height: 280px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -37,40 +58,116 @@ img.miniIcons {
     width: 2em;
     height: 2em;
     }
-    .icons{
-        text-align: center;
-    }
+
+.icons{
+    text-align: center;
+
+}
 
 
 .hdr{
     text-align: center;
-    margin: 0px 0px 0px 48px ;
+    margin: 40px 0px 0px 48px ;
 }
 
 .merchPics {
   display: flex;
-  width: 256px;
+  width: 300px;
   height:350px;
 }
-.card {
-    display: inline-block;
-    flex-direction: row;
-    flex-wrap:  wrap;
-    background-color: yellow;
-    border: 10px solid yellow;
-    border-style: groove;
-    margin-left: 100px;
+#tourName{
+    font-size: 45px;
+    margin-top: 225px;
+    margin-left: 755px;
+}
+#tourDate{
+    font-size: xx-large;
+    float: right;
+}
+.merchCard {
+    background-color: lightyellow;
+    border: 5px solid orangered;
+    border-style: solid;
     margin-top:75px;
-    margin-bottom: auto;
-    width: 280px;
+    margin-bottom: 50px;
     text-align: center;
     font-family: 'Odibee Sans', cursive;
     font-family: 'Luckiest Guy', cursive;
+    color: black;
 }
-   
+#indexHeaderImg{
+    width: 450px;
+    background-blend-mode: hard-light;
+    background-color: white;
+}
+
+#biographyTitle{
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+#indexHeader{
+    background-image: url("https://noizr.com/files/page/14/59f738c9449241.jpg");
+    background-position: right;
+}
+
+#newLetterContainer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.members{
+    margin-left: 75px;
+    padding: 20px;
+}
+
+
+
+
+
+.albums{
+    color: black;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#tourBox{
+    background-color: lightyellow;
+    color: black;
+}
+
+#tourDateStartFinish{
+    font-size: 100px;
+}
+
+#tourExclusive{
+    font-size: xx-large;
+}
+
+#limitedStock{
+    font-size: 45px;
+}
+
+#exclusiveTour{
+    font-size: xx-large ;
+}
+
+#bioText{
+    font-size: xx-large;
+    margin-top: 150px;
+}
+#fullStory{
+    font-size: x-large;
+}
+
+.memberImg{
+ height: 350px;
+ width: 300px;
+}
 
 #brandName{
-    color: black;
+    color: white;
 }
 .nav-link{
     color: white;
@@ -96,9 +193,24 @@ img.card-img {
 
 .eventsImg{
     max-width: 250px;
+    height: 250px;
+    border: 5px solid red;
 }
 .eventsContainer{
-    margin: 100px;
+    margin: 20px 20px 20px 20px;
+    color: black;
+    background-color: lightyellow;
+}
+
+.card-header{
+    background-color: black;
+}
+#newsCard{
+    background-color:black;
+}
+
+#newEvents{
+    background-color:  rgb(44, 44, 44);
 }
 
 .media-body{
@@ -109,3 +221,9 @@ img.card-img {
     margin: 50px
 }
 
+footer{
+    background-color: black;
+    margin-bottom: 0;
+    height: 60px;
+    color: white;
+}
