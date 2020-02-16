@@ -45,8 +45,10 @@ img.bandpic {
 }
 
 dl.members {
+    margin-left: 45%;
     text-align: center;
-}       
+}
+
 img.card-img-album {
     width: 300px;
     height: 300px;
@@ -85,7 +87,7 @@ img.miniIcons {
     float: right;
 }
 .merchCard {
-    background-color: lightyellow;
+    background-color: white;
     border: 5px solid orangered;
     border-style: solid;
     margin-top:75px;
@@ -116,11 +118,6 @@ img.miniIcons {
     margin-bottom: 25px;
 }
 
-.members{
-    margin-left: 75px;
-    padding: 20px;
-}
-
 
 
 
@@ -133,7 +130,7 @@ img.miniIcons {
 }
 
 #tourBox{
-    background-color: lightyellow;
+    background-color: white;
     color: black;
 }
 
@@ -163,7 +160,7 @@ img.miniIcons {
 
 .memberImg{
  height: 350px;
- width: 300px;
+ width: 285px;
 }
 
 #brandName{
@@ -199,7 +196,7 @@ img.card-img {
 .eventsContainer{
     margin: 20px 20px 20px 20px;
     color: black;
-    background-color: lightyellow;
+    background-color: white;
 }
 
 .card-header{
@@ -207,10 +204,6 @@ img.card-img {
 }
 #newsCard{
     background-color:black;
-}
-
-#newEvents{
-    background-color:  rgb(44, 44, 44);
 }
 
 .media-body{
