@@ -297,23 +297,23 @@ const eventsForTickets = () => {
 
 const recentEvents = [
   {
-    event: "New Tour!",
+    event: "NA - Stoner Wisdom Tour!",
     para:
-      "We'll be starting a new tour starting 4/20/20! We've been lucky enough these past few years to save enough money to tour the US with our friends (insert student group names here) We're are unbelieveably stoked for this opportunity and can't wait to meet our american fans! We'll have one time only merch available specifically for the tour and once the items are gone they are GONE! So get them while you can!",
+      "We'll be starting a new tour starting 4/20/20! We've been lucky enough these past few years to save enough money to tour the US with our friends.  We are unbelieveably stoked for this opportunity and can't wait to meet our american fans! We'll have one time only merch available specifically for the tour and once the items are gone they are GONE! So get them while you can!",
     img:
       "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/10636022_687582918000406_3231745271274769475_n.jpg?_nc_cat=102&_nc_ohc=-3lqjXarpsUAX-nBuGE&_nc_ht=scontent-ort2-2.xx&oh=7d5dfed0046cab8993d3cc1ddeff9bcc&oe=5F030098"
   },
   {
-    event: "New Album",
+    event: "Stoner Wisdom",
     para:
       "The newest album just released on 11/15/2019! Stoner Wisdom is available now on spotify and itunes as well as a few tracks on youtube. If you loved our single 'Stoner Wisdom' you're gonna love this this kick ass album!",
     img:
       "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/524691_393549160737118_1724626884_n.jpg?_nc_cat=105&_nc_ohc=6SVawbsNlW0AX89oN7x&_nc_ht=scontent-ort2-2.xx&oh=10cd1bbaba1ca94a22e32465e003f6e7&oe=5F0285B0"
   },
   {
-    event: "New Member",
+    event: "Welcome Steven Oliver",
     para:
-      "Its been a crazy year, we've been working on recording our new album and getting a tour set up for 2020, and with the unfortunate departure of our good friend John Wayne we just felt overwelhmed, but luckily there is always a light at the end of the tunnel. We were able to get a replacement with ease. Please give a loving EASY BAKE OVEN welcoe to Andy Livingstone! Andy will be joining us on guitar! He's a dear friend to us and we're sure you'll love him!",
+      "Its been a crazy year, we've been working on recording our new album and getting a tour set up for 2020, and with the unfortunate departure of our good friend John Wayne we just felt overwelhmed, but luckily there is always a light at the end of the tunnel. We were able to get a replacement with ease. Please give a loving EASY BAKE OVEN welcome to Andy Livingstone! Andy will be joining us on guitar! He's a dear friend to us and we're sure you'll love him!",
     img:
       "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/543225_393547024070665_1956419788_n.jpg?_nc_cat=110&_nc_ohc=Wy5ViLyKpCMAX-VTSIx&_nc_ht=scontent-ort2-2.xx&oh=2170d64d71be92bd27fa55f5577051b8&oe=5ECC9D01"
   }
